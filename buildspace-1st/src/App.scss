@@ -41,7 +41,24 @@ button {
   background-color: lightgreen;
 
   &:hover {
+    cursor: pointer;
     background-color: rgb(86, 252, 86);
     border: 1px dotted red;
+  }
+}
+
+.waves {
+  background-color: "OldLace";
+  margin-top: "16px";
+  padding: "8px";
+}
+
+input {
+  padding: 1ch;
+  text-align: center;
+
+  &:required:invalid {
+    border: pink 1px solid;
+    background-color: pink;
   }
 }

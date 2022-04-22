@@ -4,6 +4,8 @@
   - [Notes](#notes)
   - [How to use .env](#how-to-use-env)
   - [Hardhat commands](#hardhat-commands)
+  - [wave contract info](#wave-contract-info)
+  - [instructions for re-deployment](#instructions-for-re-deployment)
 
 
 **54 warnings**
@@ -38,3 +40,8 @@
 Deploying contracts with account:  0x9f83523C25aC79Be71ea16F303c38FA7b792A5e8
 Account balance:  1196487975421511172
 WavePortal address:  0xb08c855C07FC1f88032b609d2B4c9C8eB9e46114
+
+## instructions for re-deployment
+- check everything is working whit `npx hardhat run scripts/run.js`
+- re-deploy the contract (since changes canno be made) `npx hardhat run scripts/deploy.js --network rinkeby`
+- update the *abi.json* on the front-end 
