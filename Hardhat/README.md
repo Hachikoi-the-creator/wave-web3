@@ -26,15 +26,13 @@
 - in the file where you want to use those variables `require('dotenv').config();`
 
 ## Hardhat commands
-- npx hardhat accounts
-  - print test accounts :D
-- npx hardhat compile
-  - Compile solidity files into Bytecode (for the EVM)
-- npx hardhat clean
-- npx hardhat test
-- npx hardhat node
-- node scripts/sample-script.js
-- npx hardhat help
+- `npx hardhat accounts` : print test accounts :D
+- `npx hardhat compile` : Compile solidity files into Bytecode (for the EVM)
+- `npx hardhat clean` :
+- `npx hardhat test` :
+- `npx hardhat node` :
+- `node scripts/sample-script.js` :
+- `npx hardhat help` :
 
 ## wave contract info
 Deploying contracts with account:  0x9f83523C25aC79Be71ea16F303c38FA7b792A5e8
